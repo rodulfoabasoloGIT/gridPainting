@@ -8,6 +8,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .container-grid {
@@ -29,8 +31,25 @@ body {
 }
 .white2 {
   background: #edefe9;
-  grid-row-start: 2;
-  grid-row-end: 4;
+  grid-row: span 2;
+}
+.white3 {
+  background: #edefe9;
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.blue {
+  background-color: rgb(3, 3, 209);
+  border-bottom: 10px solid black;
+}
+.white4 {
+  background: #edefe9;
+  grid-row: span 2;
 }
 .item {
+  background: #edefe9;
+}
+.yellow {
+  background: yellow;
 }
